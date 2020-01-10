@@ -26,4 +26,5 @@ body {
 
 .temp {
     flex-direction: column;
+    font-size: 25px;
 }
