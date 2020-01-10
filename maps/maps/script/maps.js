@@ -86,7 +86,7 @@ function initMap () {
           ]
         
     });
-    infoWindow = new google.maps.InfoWindow;
+    infoWindow = new google.maps.infoWindow;
 
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(function(position) {
